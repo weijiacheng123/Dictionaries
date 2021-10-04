@@ -1,7 +1,7 @@
 phonebook = {'Chris':'555−1111',
              'Katie':'555−2222',
              'Joanne':'555−3333'}
-'''
+
 print()
 print('*****  start section 1 - print dictionary ********')
 print()
@@ -12,7 +12,7 @@ print(type(phonebook))
 
 print(phonebook['Chris'])
 
-print(phonebook['John'])
+#print(phonebook['John'])
 
 
 print()
@@ -98,13 +98,11 @@ print()
 
 
 
-
-
 print()
 print('*****  start section 6 - iterate through values  ********')
 print()
 
-for value in phonebook.value():
+for value in phonebook.values():
     print(value)
 
 
@@ -135,8 +133,6 @@ print('*****  end section 7 ********')
 print()
 
 
-
-'''
 
 
 print()
